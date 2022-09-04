@@ -11,8 +11,9 @@ purposes of calculating school sizes and per-student budgets.
 
 ## Results
 
-The removal of the THS ninth graders' scores has little noticeable impact on the school district summary. This adjustment brings down the district's average math
-score to 78.9% from 79.0%. There is no noticeable impact on reading scores or passing percentages.
+- The removal of the THS ninth graders' scores has little noticeable impact on the school district summary. 
+- This adjustment brings down the district's average math score to 78.9% from 79.0%. 
+- There is no noticeable impact on reading scores or passing percentages.
 
 Before:
 
@@ -22,24 +23,38 @@ After:
 
 ![Screenshot of updated district summary](Resources/district_dataframe.png)
 
-The impact becomes more visible when looking at THS-specific figures. 
+
+- The impact becomes more visible when looking at THS-specific figures, as we see average math scores and passing percentages fall when excluding the 
+questionable ninth-grade scores. 
+- However, in the updated analysis, THS' average reading score ticked up a few basis points.
+
+Before:
+
+![Screenshot of previous Thomas High School analysis](Resources/THS_before.png)
+
+After:
+
+![Screenshot of updated Thomas High School analysis](Resources/THS_after.png)
 
 
-How is the school summary affected?
-How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
-How does replacing the ninth-grade scores affect the following:
-Math and reading scores by grade
-Scores by school spending
-Scores by school size
-Scores by school type
+- Thomas High School remains the second highest performing school even after removal of its ninth graders' scores.
 
+![Screenshot of top 5 schools](Resources/top_schools.png)
+
+
+- The adjusted analysis makes grade-level analysis more challenging, as data is missing for the entire ninth grade at THS.
+- The other schools' data and data for other grades at THS are unaffected.
+
+![Screenshot of grade-level data by school](Resources/grade_level_after.png)
 
 
 ## Summary
 
-Summarize four changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
+Adjustment of school data to remove THS' ninth graders' scores brought down the district's average math score very slightly. The updated analysis 
+showed lower math scores and passing percentages for THS, but slightly higher reading scores. There was no noticeable impact on scores by school spending, 
+size or type.
 
-For future reports, analysts should consider another method of calculating average test scores by spending range. This analysis calculated averages of 
-per-school averages. This could mislead stakeholders by assigning equal weight to each school's average scores, regardless of how many students' scores were 
-included in the average for each school. It would be better to assign a spending range category to each row of student data in the complete school data 
-dataframe (school_data_complete_df), and then calculate the average of scores within each spending range bin.
+For future reports, analysts should consider another method of calculating average test scores by spending range, school size and school type. This analysis 
+calculated averages of per-school averages. This could mislead stakeholders by assigning equal weight to each school's average scores, regardless of how many 
+students' scores were included in the average for each school. It would be better to assign a spending range category to each row of student data in the 
+complete school data dataframe (school_data_complete_df), and then calculate the average of scores within each spending range bin.
