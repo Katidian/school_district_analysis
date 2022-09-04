@@ -13,8 +13,13 @@ purposes of calculating school sizes and per-student budgets.
 
 
 Using bulleted lists and images of DataFrames as support, address the following questions.
+Before:
 
-![Screenshot of district summary](district_dataframe.png)
+![Screenshot of previous district summary](Resources/district_dataframe_before.png)
+
+After: 
+
+![Screenshot of updated district summary](Resources/district_dataframe.png)
 
 How is the district summary affected?
 How is the school summary affected?
