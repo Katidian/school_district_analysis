@@ -5,9 +5,9 @@ The school board requested analysis of data for the district's 15 high schools, 
 scores for all high school students. Among other things, district leaders wished to see how school performance (as measured by these scores) varied based on
 type of school (charter or district), approximate size and per-student budget. 
 
-After completion of our analysis, district leaders discovered irregularities in test scores for ninth graders at Thomas High School. Pending resolution of these 
-issues, we removed the scores in question from our analysis of average math and reading scores. However, we kept the THS ninth graders in the analysis for 
-purposes of calculating school sizes and per-student budgets.
+After completion of our [analysis](PyCitySchools_Challenge.ipynb), district leaders discovered irregularities in test scores for ninth graders at Thomas High 
+School. Pending resolution of these issues, we removed the scores in question from our analysis of average math and reading scores. However, we kept the THS ninth 
+graders in the analysis for purposes of calculating school sizes and per-student budgets.
 
 ## Results
 
@@ -15,7 +15,7 @@ purposes of calculating school sizes and per-student budgets.
 - This adjustment brings down the district's average math score to 78.9% from 79.0%. 
 - There is no noticeable impact on reading scores or passing percentages.
 
-Before:
+[Before](PyCitySchools.ipynb):
 
 ![Screenshot of previous district summary](Resources/district_dataframe_before.png)
 
