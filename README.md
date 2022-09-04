@@ -11,8 +11,9 @@ purposes of calculating school sizes and per-student budgets.
 
 ## Results
 
+The removal of the THS ninth graders' scores has little noticeable impact on the school district summary. This adjustment brings down the district's average math
+score to 78.9% from 79.0%. There is no noticeable impact on reading scores or passing percentages.
 
-Using bulleted lists and images of DataFrames as support, address the following questions.
 Before:
 
 ![Screenshot of previous district summary](Resources/district_dataframe_before.png)
@@ -21,7 +22,9 @@ After:
 
 ![Screenshot of updated district summary](Resources/district_dataframe.png)
 
-How is the district summary affected?
+The impact becomes more visible when looking at THS-specific figures. 
+
+
 How is the school summary affected?
 How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
 How does replacing the ninth-grade scores affect the following:
